@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:sevices/feature/splash/presentation/view/splash_screen.dart';
+import 'package:sevices/feature/on_boarding/screens/on_boarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +11,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: SplashScreen(),
+      debugShowCheckedModeBanner: false,
+      title: 'BSF App',
+      theme: ThemeData(
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFF4285F4)),
+        scaffoldBackgroundColor: Colors.white,
+      ),
+      home: OnBoardingScreen(),
     );
   }
 }
