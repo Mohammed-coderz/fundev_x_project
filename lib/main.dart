@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sevices/feature/splash/presentation/view/splash_screen.dart';
+import 'package:sevices/feature/forget_password/forget_password_screen.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +12,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(colorScheme: .fromSeed(seedColor: Colors.deepPurple)),
-      home: SplashScreen(),
+      home: ForgetPasswordScreen()
+      // SplashScreen(),
     );
   }
 }
