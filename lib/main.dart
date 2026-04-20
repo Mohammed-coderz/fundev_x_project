@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:sevices/feature/splash/presentation/view/splash_screen.dart';
-import 'package:sevices/profile_secreen/profile_secreen.dart';
-import 'package:sevices/select_screen/select_secreen.dart';
+
+import 'feature/select_screen/select_secreen.dart';
 
 void main() {
   runApp(const MyApp());
