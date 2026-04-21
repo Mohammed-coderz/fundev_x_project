@@ -1,7 +1,11 @@
-#Screenshut 📱
+# Screenshut 📱
+
+# splash Screen
 
 <img width="1080" height="2400" alt="1" src="https://github.com/user-attachments/assets/e91ffff9-b817-4dee-ac15-a28d977ec6b1" />
 
+
+# On Boarding Screen
 
 <img width="1080" height="2400" alt="2" src="https://github.com/user-attachments/assets/b5bfc797-e0e3-459b-b31d-1cfdfbff2a04" />
 
